@@ -1,0 +1,21 @@
+.add:hover {
+
+    background-color: bisque;
+    color: aqua;
+    cursor:pointer;
+}
+
+.add{
+
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.header {
+
+    background-color: aquamarine;
+
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
