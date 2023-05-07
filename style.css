@@ -4,13 +4,18 @@
     color: aqua;
     cursor:pointer;
 }
+.but{
 
+    display:flex;
+    justify-content: center;
+}
 .add{
-    display:block;
-    position: fixed;
-    left:46.5%;
-    padding: 15px 32px;
+    margin: 0;
+   
     
+    left: 50%;
+    
+
 }
 
 .header {
@@ -50,6 +55,9 @@
 body {
 
     background-color: antiquewhite;
+
+    display:flex;
+    flex-direction: column;
 }
 
 
@@ -72,4 +80,23 @@ input[type="submit"] {
     
   }
   
-  /*transform: scale(2);
+  /*transform: scale(2);*/
+
+  .bookcard{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: black;
+    border-width: 10px;
+    background-color: purple;
+    padding:30px;
+  }
+
+  .books{
+
+    display:flex;
+    flex-direction: row;
+    gap: 100px;
+    
+  }

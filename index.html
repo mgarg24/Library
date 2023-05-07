@@ -13,17 +13,22 @@
 <body>
     
     <h1 class="header">Library</h1>
-    
-    <button class= "add">Add Book</button>
+      <div class="but">
+        <button class= "add">Add Book</button>
+      </div>  
+    <div class="books">
 
+
+    </div>
     <div class="main">
         <div class="mc">
             <form class = "form" >
-                <input type="text" id = "title" placeholder = 'Title'>
-                <input type="text" id = "author" placeholder = 'Author'>
-                <input type="number" id = "pages" placeholder = 'Pages'>
+                <input type="text" id = "title" placeholder = 'Title' required>
+                <input type="text" id = "author" placeholder = 'Author' required>
+                <input type="number" id = "pages" placeholder = 'Pages' required>
                 <p><label >Read: </label><input type='checkbox' id='read' name='read' value='yes'></p>
-                <input type = "submit" value = "submit">
+                <input type = "submit" value = "Submit">
+                <button class= "cancel">Cancel</button>
             </form>
         </div>
         
